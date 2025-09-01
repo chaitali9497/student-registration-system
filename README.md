@@ -93,7 +93,7 @@ PROJECT FLOW :
 
 *   If a student tries to register with the already existing “student id” , then a message will show up **“Student ID already exists. Please use a different one.”**
 
-![No Duplicate ID](./src/images/5_no_duplicate_id_entry_allowed.png)
+![No Duplicate ID](./src/images/5_no_duplicate_id_entry_allowed_message.png)
     
 *   This is the “Admin Login” 
 
