@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // -------- LOGIN FORM --------
 // Admin login form handling
 function checkLogin(event) {
-  event.preventDefault();
+  event.preventDefault();  
   const user = document.getElementById('username').value;
   const pass = document.getElementById('password').value;
 
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // form + messages
   const form = document.getElementById("student");
   const successMsg = document.getElementById("successMsg");
-  const errorMsg = document.getElementById("errorMsg"); // ⚠️ duplicate warning
+  const errorMsg = document.getElementById("errorMsg"); // duplicate warning
   console.log(" Found form element? ->", !!form, form);
 
   if (!form) {
